@@ -31,8 +31,9 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.required_ruby_version = "~> 3.0"
-  # Uncomment to register a new dependency of your gem
-  # spec.add_dependency "example-gem", "~> 1.0"
+  spec.add_dependency "google-protobuf", ">= 3", "< 5"
+  spec.add_dependency "i18n", "~> 1.0"
+  spec.add_dependency "zeitwerk", "~> 2.6"
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
